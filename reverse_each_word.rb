@@ -12,11 +12,23 @@
 
 def reverse_each_word(sentence)
   new_array = sentence.split(" ")
-  # new_sentence = [] <= use this if using .each 
   
-  new_sentence = new_array.collect do |word| #remove new_sentence from here if using .each
-    word.reverse #push word.reverse into new_sentence here if using .each
+  new_sentence = new_array.collect do |word|         
+    word.reverse         
   end
   
   new_sentence.join(" ")
 end
+
+
+
+# def reverse_each_word(sentence)
+#   new_array = sentence.split(" ")
+#   new_sentence = []
+  
+#   new_array.each do |word|   
+#     new_sentence << word.reverse         
+#   end
+  
+#   return new_sentence.join(" ")
+# end
