@@ -21,7 +21,6 @@ def reverse_each_word(sentence)
 end
 
 
-puts reverse_each_word(sentence)
 
 # def reverse_each_word(sentence)
 #   new_array = sentence.split(" ")
