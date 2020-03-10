@@ -10,6 +10,7 @@
 # reverse each array word on its own
 # turn back into a string
 
+
 def reverse_each_word(sentence)
   new_array = sentence.split(" ")
   
