@@ -21,7 +21,7 @@ def reverse_each_word(sentence)
   # new_sentence.join(" ")
 end
 
-sentence = ["people teachers cats"]
+sentence = "people teachers cats"
 puts reverse_each_word(sentence)
 
 # def reverse_each_word(sentence)
