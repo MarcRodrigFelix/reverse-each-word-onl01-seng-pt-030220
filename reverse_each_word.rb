@@ -20,7 +20,7 @@ def reverse_each_word(sentence)
   new_sentence.join(" ")
 end
 
-sentence = "go to th"
+
 puts reverse_each_word(sentence)
 
 # def reverse_each_word(sentence)
